@@ -1,0 +1,63 @@
+<div style="text-align:center">
+  <h1 class="card-header bg-info">
+     TEAM SAMMARD
+  </h1>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWE3G9d6TiSWq2EZPc0I7XMb6i7rUbvV8&callback=initMap"
+  type="text/javascript"></script>
+
+<!-- this creates a google map on the page with the given lat/lng from -->
+<!-- the component as the initial center of the map: -->
+
+<div class="w3-container"> 
+  <div class="row">
+    <ngx-charts-line-chart
+    [view]="view"
+    [scheme]="colorScheme"
+    [legend]="legend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxis]="xAxis"
+    [yAxis]="yAxis"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    [timeline]="timeline"
+    [results]="multi"
+    [rotateXAxisTicks]="rotateXAxisTicks"
+    [autoScale]="autoScale"
+    [maxXAxisTickLength]="10"
+    [showRefLabels]="false"
+    >
+    </ngx-charts-line-chart>
+    <div class="row1">
+    <ngx-charts-line-chart
+    view]="view"
+    [scheme]="colorScheme"
+    [legend]="legend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxis]="xAxis"
+    [yAxis]="yAxis"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabelA"
+    [timeline]="timeline"
+    [results]="multi"
+    [rotateXAxisTicks]="rotateXAxisTicks"
+    [autoScale]="autoScale"
+    [maxXAxisTickLength]="10"
+    [showRefLabels]="false" >
+    </ngx-charts-line-chart>
+  </div>
+  
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
